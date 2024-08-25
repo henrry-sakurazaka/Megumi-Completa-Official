@@ -1,0 +1,64 @@
+#g-ms {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate3d(50vw, 50vh, 0);
+    z-index: 9999;
+    pointer-events: none;
+    transition: all 0.4s ease-out;
+  }
+  
+  .g-ms_i {
+    width: 64px;
+    height: 64px;
+    margin: -24px 0 0 -24px;
+    border: orange solid 1px;
+    border-radius: 50%;
+    background-color: rgba(244, 109, 7, 0.5);
+  }
+  
+  .g-ms-hover .g-ms_i {
+    transform: scale(1.8);
+    background-color: rgba(0,0,100,0.2);
+  }
+  
+  #cursor {
+    transform: translate(0, 0);
+    pointer-events: none;
+    position: fixed;
+    top: -4px;
+    left: -4px;
+    width: 8px;
+    height: 8px;
+    background: orange;
+    border-radius: 50%;
+    z-index: 9999;
+    transition: width 0.3s, height 0.3s, top 0.3s, left 0.3s;
+  }
+  #cursor.hov_ {
+    top: -8px;
+    left: -8px;
+    width: 16px;
+    height: 16px;
+    background: rgba(250, 77, 3, 0.5);
+  }
+  
+  html, body, iframe, button {
+    cursor: none;
+  }
+
+
+  /* .navbar li a::after {
+    margin-left: 40px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: #a37b7b;;
+    transition: 0.3s;
+    display: block;
+  }
+  .navbar li a:hover::after {
+    width: 88px;
+  } */
+  /*# sourceMappingURL=MS.css.map */

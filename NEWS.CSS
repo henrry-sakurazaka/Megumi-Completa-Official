@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+}
+
+.background {
+  position: relative;
+  height: 100vh;
+  background-color: white;
+}
+
+.message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+a:hover {
+  color: rgb(97, 250, 97);
+}
+
+a {
+  font-size: 55px;
+  color: rgb(105, 193, 18);
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 5px;
+}
+
+@media screen and (max-width: 1366px) {
+  a {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 1112px) {
+  a {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .message {
+    height: 100px;
+    width: 500px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 414px) {
+  a {
+    font-size: 25px;
+    line-height: 8px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+}
+@media screen and (max-width: 320px) {
+  a {
+    font-size: 20px;
+  }
+}
+a {
+  -webkit-animation-name: move-news;
+  animation-name: move-news;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  transition: opacity 5S;
+}
+
+a {
+  display: inline-block;
+}
+
+@-webkit-keyframes move-news {
+  0% {
+    transform: translateY(35px);
+    opacity: 0;
+    transition: all 3s;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 3s;
+  }
+}
+@keyframes move-news {
+  0% {
+    transform: translateY(35px);
+    opacity: 0;
+    transition: all 3s;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 3s;
+  }
+} /*# sourceMappingURL=news.css.map *//*# sourceMappingURL=news.css.map */
