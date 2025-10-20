@@ -97,10 +97,6 @@ h1 li a:hover {
   
 }
 
-.text {
-  text-align: justify;
-}
-
 /* .access-profile {
   margin-top: 30px;
 } */
@@ -372,7 +368,7 @@ img {
 @media screen and (max-width: 768px) {
   .wrapper {
     flex-direction: column;
-    align-items: center;
+    align-items: center
   }
 }
 
@@ -435,7 +431,6 @@ img {
     width: 360px;
     margin-top: 72px;
     padding-left: 0;
-    word-wrap: normal;
   }
   p {
     font-size: 0.5em;
@@ -476,7 +471,6 @@ img {
   .profile {
     width: 320px;
     padding-left: 0;
-    font-size: 0.2em;
   }
   .navbar {
     margin-left: 8px;

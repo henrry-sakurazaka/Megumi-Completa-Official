@@ -126,3 +126,9 @@ for (let i = 0; i < hovBtn.length; i++) {
     mouseStalker.classList.remove("hov");
   });
 }
+
+if (window.innerWidth < 800 ) {    
+    mouseStalker.parentNode.removeChild(mouseStalker);
+    cursor.parentNode.removeChild(cursor);
+    circle.classList.remove('g-ms_i');
+}
