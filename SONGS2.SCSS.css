@@ -316,6 +316,12 @@ footer {
     margin-top: 10px;
   }
 }
+@media screen and (max-width: 768px) {
+  .copy {
+    width: 360px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .navbar {
     display: block;
@@ -330,11 +336,25 @@ footer {
 
 @media screen and (max-width: 430px){
 
+  nav {
+    height: 160px;
+  }
   .navbar {
     margin-left: 15px;
+    height: 160px;
   }
   
-  
+  .navbar li {
+    max-width: 40px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 96px;
+  }
+ 
 }
 @media screen and (max-width: 414px) {
 

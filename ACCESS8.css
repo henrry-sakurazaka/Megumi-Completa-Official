@@ -374,6 +374,9 @@ img {
     flex-direction: column;
     align-items: center
   }
+  .copy {
+    width: 360px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -409,7 +412,15 @@ img {
   .navbar {
     margin-left: 15px;
   }
-  
+  .navbar li {
+    max-width: 40px;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
 }
 @media screen and (max-width: 414px) {
   
