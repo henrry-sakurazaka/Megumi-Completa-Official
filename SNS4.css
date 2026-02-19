@@ -182,6 +182,12 @@ p a {
   display: block;
 }
 
+span {
+  height: 32px;
+  width: 80px;
+  overflow: hidden;
+}
+
  .navigation:hover::after {
   width: 100%;
 }

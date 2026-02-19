@@ -184,6 +184,12 @@ img {
   width: 100%;
 }
 
+span {
+  height: 32px;
+  width: 80px;
+  overflow: hidden;
+}
+
 @media (hover: none) {
   .navbar li a:hover {
     background-color: #b38787;
