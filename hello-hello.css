@@ -500,6 +500,10 @@ h6 {
   nav {
     left: 64px;
   }
+  .navbar li {
+    max-width: 40px;
+  }
+
 }
 @media screen and (max-width: 414px) {
   body {
