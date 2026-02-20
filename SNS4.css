@@ -218,6 +218,7 @@ footer {
   display: flex;
   color: rgb(99, 88, 88);
   opacity: 0;
+  
 }
 
 h1, h2, h5, h6 {
@@ -362,9 +363,10 @@ ul {
     font-size: 30px;
   }
   .copy {
-    font-size: 0.1em;
+    font-size: 0.8em;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    width: 400px;
   }
   h5 {
     font-size: 0.1em;
