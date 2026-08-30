@@ -50,68 +50,59 @@
 
 
             <div class="form">
-
-
-                <form action="./CONTACT.php" method="post">
-
+                <form action="./CONTACT.php" method="post" data-netlify="true">
                     <h5>お問い合わせ内容</h5>
-
                         <div  id="textSection">
                             <span class="border">
                                 <p class="alert-name">名前を入力して下さい</p>
                             </span>
-                        <div class="tooltip1"></div>
-            </div>
+                           <div class="tooltip1"></div>
+                        </div>
 
-            <p>
-                <label for="name-field">NAME
-                    <span class="required">必須</span>
-                </label>
-            <br>
-                <input type="text" name="name" id="name-field">
-            </p>
+                        <p>
+                            <label for="name-field">NAME
+                                <span class="required">必須</span>
+                            </label>
+                            <br>
+                            <input type="text" name="name" id="name-field" placeholder="お名前" required />
+                        </p>
 
 
-            <div id="textSection2">
-                <span class="border">
-                    <p class="alert-mail">メールアドレスを半角英数字で入力してください</p>
-                </span>
-                <div class="tooltip2"></div>
-            </div>
+                        <div id="textSection2">
+                            <span class="border">
+                                <p class="alert-mail">メールアドレスを半角英数字で入力してください</p>
+                            </span>
+                            <div class="tooltip2"></div>
+                        </div>
 
-            <p>
-                <label for="email-field">MAIL ADDRESS
-                    <span class="required">必須</span>
-                </label>
-                <br>
-                <input type="email" name="email" id="email-field">
-            </p>
+                        <p>
+                            <label for="email-field">MAIL ADDRESS
+                                <span class="required">必須</span>
+                            </label>
+                            <br>
+                            <input type="email" name="email" id="email-field" placeholder="メールアドレス" required />
+                        </p>
 
-            <div id="textSection3">
-                <span class="border">
-                    <p class="alert-message">本文を入力して下さい</p>
-                </span>
-                <div class="tooltip3"></div>
-            </div>
+                        <div id="textSection3">
+                            <span class="border">
+                                <p class="alert-message">本文を入力して下さい</p>
+                            </span>
+                            <div class="tooltip3"></div>
+                        </div>
 
-            <p>
-                <label for="comment">MESSAGE<span class="required">必須</span>
-                </label>
-                <br>
-                <textarea name="comment" id="comment"></textarea>
-            </p>
+                        <p>
+                            <label for="comment">MESSAGE<span class="required">必須</span>
+                            </label>
+                            <br>
+                            <textarea name="comment" id="comment" placeholder="お問い合わせ内容" reiquired></textarea>
+                        </p>
 
-                        <div class="button">
-                            
+                        <div class="button">   
                             <p>
                                 <input class="submit-btn" type="submit"  name="submit" value="送信する">
                             </p>
-
-
                         </div>
-
                 </form>
-
             </div>
 
 
