@@ -343,7 +343,7 @@ img {
     width: 80px;
   }
   h6 {
-    font-size: 0.2em;
+    font-size: 0.8em;
   }
 }
 @media screen and (max-width: 1112px) {
@@ -460,7 +460,7 @@ img {
     font-size: 1.2em;
   }
   h6 {
-    font-size: 0.2em;
+    font-size: 0.8em;
   }
 }
 @media screen and (max-width:376px) {
@@ -490,7 +490,7 @@ img {
 
 
   h6 {
-    font-size: 0.05em;
+    font-size: 0.6em;
   }
   
 }
