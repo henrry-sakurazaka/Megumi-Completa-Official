@@ -492,6 +492,10 @@ img {
   h6 {
     font-size: 0.6em;
   }
+
+  .wiki {
+    color: black;
+  }
   
 }
 
